@@ -29,7 +29,7 @@ const [searchItem, setSearchItem] = useState('');
     }
 
     useEffect(() => {
-        searchMovies('Superman');
+        searchMovies(searchItem);
     }, []);
 
 
