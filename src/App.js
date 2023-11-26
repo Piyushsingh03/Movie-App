@@ -3,7 +3,7 @@ import "./App.css";
 import SearchIcon from './search.svg';
 import { useEffect, useState } from "react";
 
-const API_URL = "http://www.omdbapi.com/?apikey=683eccb6";
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=683eccb6";
 
 const movie1 = {
     "Poster":"https://m.media-amazon.com/images/M/MV5BYzYzZDViNWYtNWViMS00NDMxLThlN2YtZjFkOWMwODkzNzhiXkEyXkFqcGdeQXVyMTUwMzM4NzU0._V1_SX300.jpg",
